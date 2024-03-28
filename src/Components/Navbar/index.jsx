@@ -80,7 +80,7 @@ const Navbar = () => {
       {/* Right Side */}
       {/* <ul className="flex items-center gap-3"> */}
       <ul className="flex items-center gap-3 lg:ml-auto">
-      <li className="text-white/60 hidden lg:block">maxi.sm117@gmail.com</li>
+      {/* <li className="text-white/60 hidden lg:block">test@gmail.com</li> */}
         <li>
           <NavLink
             to="/my-orders"
