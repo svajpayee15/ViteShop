@@ -15,7 +15,7 @@ const OrdersCard = (props) => {
           <span className="font-medium">{totalProducts} {totalProducts === 1 ? 'article' : 'articles'} </span>
         </p>
         <p className="flex items-center gap-2">
-          <span className="font-medium text-2xl">${totalPrice}</span>
+          <span className="font-medium text-2xl">₹{totalPrice}</span>
           <ChevronRightIcon className="h-6 w-6 text-white cursor-pointer" />
         </p>
       </div>

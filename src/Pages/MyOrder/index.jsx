@@ -32,7 +32,7 @@ function MyOrder() {
               id={product.id}
               title={product.title}
               imageUrl={product.images}
-              price={`$${product.price}`}
+              price={`₹${product.price}`}
             />
           ))
         ) : (
@@ -45,7 +45,7 @@ function MyOrder() {
           <p className="flex w-full items-center">
             <span className="font-normal text-xl p-2">Total: </span>
             <span className="font-medium text-2xl">
-              ${context.order?.[index]?.totalPrice}
+              ₹{context.order?.[index]?.totalPrice}
             </span>
           </p>
         </div>

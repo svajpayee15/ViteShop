@@ -27,7 +27,7 @@ const ProductDetail = () => {
         <img src={context.productToShow.images[0]} alt="context.productToShow.title" />
       </figure>
       <p className="flex flex-col p-6">
-        <span className='font-medium text-2xl mb-2'>${context.productToShow.price}</span>
+        <span className='font-medium text-2xl mb-2'>₹{context.productToShow.price}</span>
         <span className='font-medium text-md'>{context.productToShow.title}</span>
         <span className='font-medium text-sm'>{context.productToShow.description}</span>
       </p>

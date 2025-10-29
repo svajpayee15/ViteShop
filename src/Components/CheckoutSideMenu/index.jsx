@@ -21,7 +21,7 @@ const CheckoutSideMenu = () => {
 
   const handleCheckout = () => {
     const orderToAdd = {
-      date: "23/03/24",
+      date: "28/07/25",
       products: context.cartProducts,
       totalProducts: context.cartProducts.length,
       totalPrice: totalPrice(context.cartProducts),
@@ -71,7 +71,7 @@ const CheckoutSideMenu = () => {
             id={product.id}
             title={product.title}
             imageUrl={product.images}
-            price={`$${product.price}`}
+            price={`₹${product.price}`}
             handleDelete={handleDelete}
           />
         ))}
@@ -80,7 +80,7 @@ const CheckoutSideMenu = () => {
         <p className="flex justify-between items-center mb-2">
           <span className="font-medium">Total: </span>
           <span className="font-medium text-2xl">
-            ${totalPrice(context.cartProducts)}
+            ₹{totalPrice(context.cartProducts)}
           </span>
         </p>
         <Link to="/my-orders/last" className="text-blue-500">
