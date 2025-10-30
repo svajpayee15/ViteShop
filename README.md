@@ -23,7 +23,7 @@ To install the ViteShop project using npm, follow these steps:
 
 1. Clone the ViteShop repository to your local machine:
    ```bash
-   git clone https://github.com/Starklord17/ViteShop
+   git clone https://github.com/svajpayee15/ViteShop
    ```
 
 2. Navigate to the cloned project directory:
